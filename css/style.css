@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
+	text-align: center;
+	font-family: cursive;
+	font-family: cursive;
 }
 .wrapper{
 	width: 1170px;
@@ -62,8 +65,23 @@ header{
 	color: blue;
 	font-size: 30px;
 }
+section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 
+figure{
+	height: 400px;
+	width: 32%;
+	border-radius: 10px;
+	margin: 40px;
+}
+figure img{
+	height: 180px;
+	width: 32%;
 
+}
 
 
 
