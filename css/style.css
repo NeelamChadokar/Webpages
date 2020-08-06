@@ -12,7 +12,9 @@
 	position: fixed;
 }
 header{
-	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(sunset.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(new-bg.jpg);
+	background-attachment: fixed;
+	opacity: 1;
 	height: 100vh;
 	background-size: cover;
 	background-position: center center;
@@ -61,40 +63,13 @@ header{
 	font-size: 60px
 }
 #Projects{
-	margin-left: 30px;
-	color: blue;
-	font-size: 30px;
-}
-section{
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	margin: 10px;
+	color: purple;
+	font-size: 30px;
+	width: 100%;
+	justify-content: space-around;
 }
-
-figure{
-	height: 400px;
-	width: 32%;
-	border-radius: 10px;
-	margin: 40px;
+.btn{
+	color: blue;
 }
-figure img{
-	height: 180px;
-	width: 32%;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
