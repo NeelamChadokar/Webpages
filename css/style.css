@@ -14,6 +14,7 @@
 header{
 	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(new-bg.jpg);
 	background-attachment: fixed;
+	background-size: cover;
 	opacity: 1;
 	height: 100vh;
 	background-size: cover;
@@ -72,4 +73,9 @@ header{
 }
 .btn{
 	color: blue;
+}
+.container{
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 30%;
 }
